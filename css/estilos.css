@@ -1,0 +1,179 @@
+/*Tipofrafía de la web*/
+@font-face {
+  font-family: "OctoberCrow";
+  src: url(../fonts/woff2/October\ Crow.woff2) format("woff2"),
+    url(../fonts/woff/October\ Crow.woff) format("woff"),
+    url(../fonts/ttf/October\ Crow.ttf) format("truetype");
+}
+
+/*Color del body*/
+body {
+  background-color: #474747;
+  display: flex;
+  justify-content: center;
+}
+
+/*Contenedor*/
+.bodycontainer {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 390px;
+  justify-content: center;
+}
+
+/*Flexbox para el título*/
+
+.cabecera {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/*Flexbox para el logo de la calavera*/
+
+.skull {
+  display: flex;
+  justify-content: center;
+}
+
+/*Position Absolute para colocar la calavera mas pegada al título*/
+
+.skull > img {
+  position: absolute;
+  top: 60px;
+}
+
+/*Flexbox para el subtítulo*/
+
+.subtitle {
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #f1f1f1;
+  flex-wrap: wrap;
+}
+
+/*Font family para h1,h2...*/
+
+h1 {
+  font-family: "OctoberCrow";
+  color: #f1f1f1;
+}
+
+h2 {
+  color: #f1f1f1;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 0.5px black;
+}
+
+/*Flexbox para la primera foto*/
+
+.firstphoto {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+/*Estilo para los párrafos*/
+
+p {
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo para los botones*/
+
+button {
+  margin-top: 10px;
+  height: 48px;
+  color: #f41010;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(../img/jpg/skull.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.firstphoto > h2 {
+  text-align: center;
+}
+
+/*Apartado de artistas*/
+
+.artistas {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.artistas > picture > img {
+  border-radius: 100%;
+}
+
+/*Footer*/
+
+footer {
+  padding: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 380px;
+  background-color: #ff7a00;
+  text-align: center;
+}
+
+/*Estilo para los inputs*/
+
+input {
+  padding: 5px;
+  margin: 10px;
+  height: 48px;
+  width: 80%;
+}
+
+/*Quito estilos de <a>*/
+
+a {
+  text-decoration: none;
+  color: #f41010;
+}
+
+/*Boton enviar*/
+
+.enviar {
+  color: #f41010;
+  margin-top: 10px;
+  height: 48px;
+  width: 88px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(../img/jpg/skull.png);
+  background-size: contain;
+  background-position: center;
+}
+
+/*FlexBox Redes Sociales*/
+
+.rsociales {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Ajusto un poco el logo de twitter*/
+
+.twitter {
+  padding-top: 12px;
+}
+
+/*Ajusto un poco el logo de tiktok*/
+
+.tiktok {
+  padding-top: 25px;
+  height: 30px;
+}
